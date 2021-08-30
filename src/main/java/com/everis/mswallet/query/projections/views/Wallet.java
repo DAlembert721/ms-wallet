@@ -1,5 +1,6 @@
 package com.everis.mswallet.query.projections.views;
 
+import com.everis.mswallet.command.dto.CreateWallet;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
@@ -37,5 +38,4 @@ public class Wallet {
         Random random = new Random();
         return PREFIX + random.nextInt(999999999);
     }
-
 }

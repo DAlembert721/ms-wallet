@@ -30,8 +30,4 @@ public class Customer {
 
     private String gender;
 
-    public enum DocumentType {
-        DNI,
-        PASAPORTE
-    }
 }
